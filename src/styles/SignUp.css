@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&family=Open+Sans:wght@700&display=swap');
+
+.outer__container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height : 90vh;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.register__form{
+    display: flex;
+    flex-direction: column;
+}
