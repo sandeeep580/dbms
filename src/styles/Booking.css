@@ -1,0 +1,48 @@
+.booking__form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 3rem;
+    border : 2px solid grey;
+    padding-top : 1rem;
+    /* width: fit-content; */
+}
+
+.train__route{
+    display: flex;
+}
+.train__route > *{
+    margin-right : 2rem
+}
+
+.booking__form > h2{
+    margin : 0;
+}
+
+.booking__form > h3{
+    margin : 0;
+}
+
+.booking__buttons{
+    display: flex;
+    justify-content: space-around;
+    margin-top : 2rem;
+    margin-bottom: 1rem;
+}
+
+.booking__buttons > *{
+    all : unset;
+    background-color: aqua;
+    margin-right: 1rem;
+    padding : 0.5rem;
+    border-radius: 0.2rem;
+    cursor: pointer;
+}
+
+.booking__form > input{
+    margin-bottom : 1rem;
+    padding : 0.5rem;
+    border-radius: 0.3rem; 
+    border : 1px solid rgb(104, 100, 100);
+}

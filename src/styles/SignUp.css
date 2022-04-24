@@ -4,11 +4,45 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height : 90vh;
+    height : 97vh;
     font-family: 'Open Sans', sans-serif;
+    background-color: aqua;
+    flex-direction: column;
 }
 
 .register__form{
     display: flex;
     flex-direction: column;
+    border : 2px solid grey;
+    padding : 2rem;
+    border-radius: 1rem;
+    background-color: rgb(16, 129, 251);
+    border-radius: 0.2rem;
+}
+
+.register__form > input{
+    margin-bottom: 1rem;
+    padding : 0.2rem
+}
+
+.register__form > button{
+    padding : 0.5rem;
+    background-color: orange;
+    cursor: pointer;
+}
+
+.register__form > p{
+    display: flex;
+    justify-content: center;
+}
+
+.register__form > p > button{
+    all : unset;
+    font-weight: 800;
+    margin-left : 0.5rem;
+}
+
+.register__form > p > button:hover{
+    text-decoration: underline;
+    cursor: pointer;
 }
