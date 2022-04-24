@@ -7,6 +7,8 @@ import Booking from './Booking';
 
 function Home() {
 
+    // small comment
+
     const [allTrains, setAllTrains] = useState(null);
     const [loading, setLoading] = useState(true);
     const [show, setShow] = useState(null);
